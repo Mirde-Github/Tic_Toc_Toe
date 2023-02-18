@@ -1,0 +1,28 @@
+.box{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    box-shadow: 0 0 0 1px;
+    line-height: 70px;
+    font-size: 60px;
+    cursor: pointer;
+}
+h1, .box,h2{
+    text-align: center;
+    
+}
+.box:hover{
+    color: green;
+    font-size: 75px;
+}
+
+.sub_conatiner{
+    display: grid;
+     grid-template-columns: repeat(3,auto);  
+     width: 220px;
+     margin: auto;
+   
+}
+#restarts{
+    margin-left: 45%; 
+}
